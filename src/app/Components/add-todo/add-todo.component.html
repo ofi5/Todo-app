@@ -1,0 +1,9 @@
+<form [formGroup]="addForm" (submit) = submitApplication() >
+    <label for="title">Add Title</label>
+    <input id="title" type="text" formControlName="title">
+
+    <label for="desc">Add Decsription</label>
+    <input id="desc" type="text" formControlName="desc">
+
+    <button type="submit" class="primary" >Add Todo</button>
+</form>

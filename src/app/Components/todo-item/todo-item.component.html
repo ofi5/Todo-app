@@ -1,0 +1,11 @@
+<div>
+    <h3 [ngClass]="{'strike':!todo.active}">{{todo.title}}</h3>
+    <p [ngClass]="{'strike':!todo.active}">{{todo.desc}}</p>
+
+    <div>
+        <input type="checkbox" id="check" (click)="onCheckboxClick(todo)">
+        <label for="check">Done</label>
+    </div>
+    <button (click)=onDone(todo)>Done</button>
+    
+</div>
