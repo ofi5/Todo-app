@@ -25,12 +25,17 @@
 }
 
 button{
-    padding: 0 10px;
+    padding: 3px 10px;
     border: solid 1px var(--primary-color);
-    background: #628307;
+    background: #4a5f0f;
     color: rgb(255, 255, 255);
-    border-radius: 8px;
+    border-radius: 5px;
     /* margin: 10px; */
+}
+button:hover{
+    background-color:#9dc03c ;
+    color: #2a2b29;
+    border: solid black 1px;
 }
 label{
     margin-left: 10px;
