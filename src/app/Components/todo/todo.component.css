@@ -1,0 +1,27 @@
+h4{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    /* border: solid black 2px; */
+    margin: auto;
+    padding: 30px;
+    font-size: 20px;
+     
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    /* border: solid black 2px; */
+    margin: auto;
+     
+}
+
+.todo-render{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    /* border: solid black 2px; */
+    /* border-radius: 10px; */
+    text-align: center;
+}

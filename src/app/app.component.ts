@@ -11,6 +11,6 @@ import { AddTodoComponent } from './Components/add-todo/add-todo.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Todo-app';
+  title = 'Things-To-Do-Application';
 
 }
