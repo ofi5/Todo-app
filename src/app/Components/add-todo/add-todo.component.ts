@@ -19,6 +19,7 @@ export class AddTodoComponent {
   })
 
   submitApplication(){ 
+    
 
     const newTodo = {
       sno: 8,
@@ -27,5 +28,6 @@ export class AddTodoComponent {
       active:true
     }
     this.toAdd.emit(newTodo)
+    this.addForm.reset()
   }
 }

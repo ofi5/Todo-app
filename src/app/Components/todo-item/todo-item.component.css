@@ -15,10 +15,12 @@
     display: flex;
     padding: 30px;
     margin: 30px;
-    border: solid #c2da81 2px;
+    border: solid #2a2b29 2px;
     justify-content: space-around;
     border-radius: 10px;
     background-color: #c2da81;
+    
+
 
 }
 

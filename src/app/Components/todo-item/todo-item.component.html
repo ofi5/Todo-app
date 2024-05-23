@@ -1,11 +1,11 @@
 <div class="outside">
-    <h3 [ngClass]="{'strike':!todo.active}">{{todo.title}}</h3>
-    <p [ngClass]="{'strike':!todo.active}">{{todo.desc}}</p>
+    <div><h3 [ngClass]="{'strike':!todo.active}">{{todo.title}}</h3></div>
+    <div><p [ngClass]="{'strike':!todo.active}">{{todo.desc}}</p></div>
 
     <div class="inside">
         <input type="checkbox" id="check" (click)="onCheckboxClick(todo)">
         <label for="check">Done</label>
     </div>
-    <button  (click)=onDone(todo)>Delete</button>
+    <div><button  (click)=onDone(todo)>Delete</button></div>
     
 </div>

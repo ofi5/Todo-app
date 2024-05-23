@@ -26,7 +26,7 @@ export class TodoComponent {
       this.todos = [{
         sno:0,
         title:"My To do App",
-        desc: "Try this to do App",
+        desc: "Click in check box to strike out the work, click on delete to remove the Entry",
         active: true
       }]  
     // }else{
